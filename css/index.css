@@ -178,6 +178,15 @@ img {
   margin: 20px;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+  }
+}
 .mainNav a {
   text-align: center;
   padding: 10px;

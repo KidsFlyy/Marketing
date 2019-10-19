@@ -3,6 +3,9 @@
     margin: @margin;
     width: 50%;
 
+    @media @mobile {
+        .flex(space-between, center, column, @small);
+    }
 
     a {
         text-align: center;
