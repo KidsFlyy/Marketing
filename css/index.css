@@ -229,6 +229,15 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
