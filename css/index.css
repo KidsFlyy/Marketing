@@ -258,6 +258,12 @@ img {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+.home .logo {
+  height: 20%;
+  width: 20%;
+  border-radius: 0%;
+  padding: 10px;
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed black;
